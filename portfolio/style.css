@@ -4,7 +4,9 @@
     font-family: 'poppins',sans-serif;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: #fff;
@@ -127,6 +129,7 @@ nav ul li a:hover::after{
 }
 .tab-contents{
     display: none;
+    transition: 0.5s;
 }
 .tab-contents.active-tab{
     display: block;
@@ -345,5 +348,35 @@ nav .fa-solid{
     nav ul .menu1{
        text-align: left;
     }
-
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+    #certification .sub-title{
+        font-size: 30px;
+    }
+    
+}
+#msg{
+    color: purple;
+    margin-top: -10px;
+    display: block;
 }
