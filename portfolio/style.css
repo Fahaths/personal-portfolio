@@ -136,7 +136,7 @@ nav ul li a:hover::after{
 }
 
 /*-----services-----*/
-#services{
+#certification{
     padding: 30px 0;
 }
 .services-list{
@@ -373,7 +373,9 @@ nav .fa-solid{
     #certification .sub-title{
         font-size: 30px;
     }
-    
+    .btn{
+        font-size: 20px;
+    }    
 }
 #msg{
     color: purple;
